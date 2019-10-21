@@ -1,0 +1,199 @@
+.data-entry{
+  width:40%;
+  float:left;
+  border-right: 6px solid black;
+  height: 500px;
+}
+.payment-display{
+  width:100%;
+  margin: 0 auto;
+  padding: 0px 30px;
+  .export{
+    vertical-align: sub;
+  }
+  .input-calendar .input-calendar-field{
+    width:100px;
+    font-size:12px;
+  }
+  .date-section{
+    .input-calendar-field{
+      height:35px;
+    }
+  }
+  .status{
+    width:120px;
+  }
+  .lr-search{
+    max-width: 93%;
+    padding-bottom:5px;
+    .combo-section{
+      vertical-align:top;
+      .Select-value{
+        display:none;
+      }
+    }
+    .ref-section{
+      vertical-align:top;
+    }
+    .space-20{
+      margin-left:20px;
+    }
+    label{
+      padding-bottom:0;
+      display:block;
+    }
+    .last-field{
+      width:120px;
+    }
+  }
+  .small-font{
+    display:block;
+    font-size:11px;
+  }
+  .btn{
+    margin:0px 3px;
+  }
+  .copyCheckBox{
+    vertical-align: middle;
+  }
+  .copy{
+      vertical-align: sub;
+      margin-right:20px;
+  }
+  .saveRef{
+    vertical-align: -webkit-baseline-middle;
+  }
+  .selectedlist{
+    width:93%;
+    min-height:30px;
+    vertical-align: -webkit-baseline-middle;
+    margin:0 0 10px 0;
+  }
+  .selectedlist-label{
+    width:7%;
+  }
+
+
+}
+.close {
+  position: relative;
+  top: 3px;
+  right: 7px;
+  width: 12px;
+  height: 12px;
+  opacity: 0.3;
+  &.bm-type_cell{
+    top: 0px;
+    right: -7px;
+    float:left;
+  }
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 15px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.single-receive-date{
+  vertical-align: top;
+  display: inline-block;
+  padding: 0px 40px 0 0;
+  margin: 10px 10px 10px 10px;
+}
+.data-display{
+ .bales-table{
+     margin: 30px;
+ }
+ .date-section{
+   margin-right: 25px;
+ }
+ .lr-search{
+   margin: 0px 30px 0px 30px;
+   max-width: 800px;
+   label{
+     padding-bottom:0;
+   }
+ }
+ .input-calendar{
+   display: block;
+ }
+  width: 60%;
+}
+
+.payment-entry-row{
+  padding-left:20px;
+  .date{
+    width:50%;
+  }
+  .transporter-combo{
+    width:50%;
+    vertical-align:top;
+  }
+  .input-calendar-field{
+    width:80%;
+  }
+  .field-select{
+    width:90%;
+  }
+  .mode{
+    width:50%;
+  }
+  .chequeNo{
+    width: 45%;
+    display:none;
+    vertical-align:top;
+    input{
+      width:100%;
+    }
+  }
+  .field-textarea{
+    width:95%;
+  }
+  .sign{
+    padding-left:8px;
+  }
+  .paymentAmount{
+    width:33.3%;
+    input{
+      width:85%;
+    }
+
+  }
+}
+.refModal{
+  .lr-search{
+    .type{
+      width:50%;
+      &.first{
+        text-align:center;
+      }
+    }
+    .section{
+      &.bm-type_refmodal{
+        width:280px;
+        margin-bottom: 10px;
+      }
+      .ref-name{
+        margin-left: 15px;
+        width: 65%;
+        vertical-align:middle;
+      }
+    }
+    label{
+      font-weight: bold;
+      margin: 0 0 3px 0px;
+      vertical-align: medium;
+      padding:0 0 0 10px;
+    }
+
+  }
+}

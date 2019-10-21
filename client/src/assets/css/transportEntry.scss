@@ -1,0 +1,253 @@
+html,body, #react-app {
+  height:100%;
+}
+.entry-form-container{
+  padding: 0px 15%;
+  background-color:beige;
+}
+@media only screen and (max-width: 600px) {
+  .entry-form-container{
+    padding: 0px 2%;
+  }
+  .mobile-css{
+    display: block !important;
+  }
+  .entry-form {
+      .li50{
+          width: 50%;
+      }
+      .pricing-table {
+        padding-left:20px;
+      }
+      .li100{
+        width: 100%;
+        input{
+          width: 92% !important;
+        }
+      }
+      input[type=text],
+      input[type=number],
+     {
+        width:85%;
+     }
+     .field-long{
+         width: 100%;
+     }
+     .field-textarea{
+         width: 95% !important;
+     }
+     .party{
+       width:100%;
+     }
+
+     .bilty-date{
+       margin-top:10px;
+     }
+     .eway{
+       margin-top:5px;
+     }
+     .marginTop_8{
+       margin-top:2px;
+     }
+     .booking_stn{
+       width:100%;
+       .field-select{
+         width:50%;
+       }
+     }
+  }
+
+}
+
+.top_0{
+  margin-top:0px !important;
+}
+.valign_top{
+  vertical-align: top;
+}
+.padding_0{
+  padding-left:0px !important;
+//  padding-right:0px !important;
+}
+.marginTop_8{
+  margin-top:8px;
+}
+.entry-form {
+    margin: 0px auto;
+    max-width: 900px;
+    padding: 0px 12px 0px 12px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    .baleDetail{
+       &_no{
+           width:80%;
+       }
+       &_desc{
+           width:93%;
+       }
+       &_qty{
+         width: 85%;
+       }
+       &_freight{
+         width: 85%;
+       }
+    }
+    .div-type{
+      &_no{
+        width: 15%;
+      }
+      &_desc{
+        width: 45%;
+      }
+      &_qty{
+        width: 20%;
+      }
+      &_freight{
+        width: 20%;
+      }
+    }
+
+    li {
+        padding: 0;
+        display: block;
+        list-style: none;
+        margin: 10px 0 0 0;
+        .bm-width_50{
+          width:50%;
+        }
+    }
+    label{
+        margin:0 0 3px 0px;
+        padding:0 10px 0 0;
+        display:block;
+        font-weight: bold;
+    }
+    .field-select{
+        width: 83%;
+    }
+    .eway{
+      vertical-align: top;
+      width: 50%;
+      input{
+        width: 100%;
+      }
+    }
+    .booking-stn{
+      width: 43%;
+      .field-select{
+        width:100%
+      }
+    }
+    .baleTypes{
+      padding-top: 25px;
+      width: 100%;
+      .type{
+        width: 33.33%;
+        &.bm-type_auto{
+            width: 45%;
+        }
+      }
+      label{
+        vertical-align: text-bottom;
+        margin-left: 6px;
+
+
+      }
+    }
+    .transport{
+      float: left;
+    }
+    .city{
+        float:right;
+    }
+    .field-long{
+        width: 100%;
+    }
+    .field-textarea{
+        width: 100%;
+
+    }
+    .state{
+      width: 94% !important;
+    }
+    .display-inline {
+        display: inline-block;
+    }
+    .field-divided{
+        margin-right: 25px !important;
+    }
+    .required{
+        color:red;
+    }
+    input[type=text],
+    input[type=date],
+    input[type=datetime],
+    input[type=number],
+    input[type=search],
+    input[type=time],
+    input[type=url],
+    input[type=email],
+   textarea,
+   select{
+       box-sizing: border-box;
+       -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       border:1px solid #BEBEBE;
+       border-radius: 4px;
+       font-family: 'Pontano Sans', sans-serif;
+       font-size: 14px;
+       padding: 7px;
+       margin:0px;
+       -webkit-transition: all 0.30s ease-in-out;
+       -moz-transition: all 0.30s ease-in-out;
+       -ms-transition: all 0.30s ease-in-out;
+       -o-transition: all 0.30s ease-in-out;
+       outline: none;
+   }
+
+    input[type=text]:focus,
+    input[type=date]:focus,
+    input[type=datetime]:focus,
+    input[type=number]:focus,
+    input[type=search]:focus,
+    input[type=time]:focus,
+    input[type=url]:focus,
+    input[type=email]:focus,
+    textarea:focus,
+    select:focus{
+       -moz-box-shadow: 0 0 8px lightcoral;
+       -webkit-box-shadow: 0 0 8px lightcoral;
+       box-shadow: 0 0 8px lightcoral;
+       border: 2px solid lightcoral;
+   }
+   input[type=submit],input[type=button]{
+      background: #4B99AD;
+      padding: 8px 15px 8px 15px;
+      border: none;
+      color: #fff;
+  }
+   input[type=submit]:hover,  input[type=button]:hover{
+      background: #4691A4;
+      box-shadow:none;
+      -moz-box-shadow:none;
+      -webkit-box-shadow:none;
+  }
+  .pricing{
+      margin: -5px 30px;
+      vertical-align: top;
+      &-table{
+        display:table;
+        &_row{
+          display:table-row;
+          margin:10px;
+        }
+        &_cell{
+          display:table-cell !important;
+        }
+      }
+  }
+  .Select.is-focused:not(.is-open) > .Select-control {
+    border-color: lightcoral;
+    box-shadow: inset 0 1px 1px lightcoral, 0 0 8px 2px lightcoral;
+    background: #fff;
+  }
+}

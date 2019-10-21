@@ -1,0 +1,75 @@
+
+.dashboard-div{
+    width: 35%;
+    max-height: 380px;
+    margin: 15px 20px;
+    background-color: white;
+    display:inline-block;
+    padding: 20px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .dashboard-div{
+      width: 90%;
+      display:block;
+  }
+}
+.lr-search{
+    margin: 0px auto;
+    max-width: 700px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    label{
+      padding:10px 15px 0 0;
+      font-weight: bold;
+      margin:0 0 3px 0px;
+      vertical-align: text-bottom;
+      padding-bottom:10px;
+    }
+    .section{
+      width: 200px;
+      margin-right:25px;
+      vertical-align:top;
+      &.bm-type_first{
+        margin-left: 25px;
+      }
+      &.bm-type_modal{
+        width: 280px;
+        text-align: center;
+      }
+    }
+    .input-calendar{
+        vertical-align:top;
+        display:inline-block;
+    }
+    .field-select{
+        width: 100%;
+    }
+    input[type=text]{
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      border:1px solid #BEBEBE;
+      border-radius: 4px;
+      font-family: 'Pontano Sans', sans-serif;
+      font-size: 14px;
+      padding: 8px;
+      margin:0px;
+      -webkit-transition: all 0.30s ease-in-out;
+      -moz-transition: all 0.30s ease-in-out;
+      -ms-transition: all 0.30s ease-in-out;
+      -o-transition: all 0.30s ease-in-out;
+      outline: none;
+      &:focus{
+        -moz-box-shadow: 0 0 8px lightcoral;
+        -webkit-box-shadow: 0 0 8px lightcoral;
+        box-shadow: 0 0 8px lightcoral;
+        border: 2px solid lightcoral;
+      }
+    }
+}
+.bales-table{
+  max-height: 400px;
+  overflow-y:auto;
+  margin: 0px auto;
+  border: 1px black;
+}
